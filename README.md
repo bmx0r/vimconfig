@@ -7,13 +7,21 @@ for showing me the way
 
 
 git clone
+
 mv to your $home/.vim
+
 ln -s $home/.vim/.vimrc $home/.vimrc
+
 cd $home/.vim
+
 git submodule init
+
 git submodule update
+
 git submodule foreach git submodule init
+
 git submodule foreach git submodule update
+
 ...
 
 
