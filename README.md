@@ -6,6 +6,7 @@ terrrible, not everything is workin but it is a start, thanks to http://rawpacke
 for showing me the way
 
 cd $HOME
+
 git clone git://github.com/bmx0r/vimconfig.git .vim
 
 
