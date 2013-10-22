@@ -27,3 +27,8 @@ git submodule foreach git submodule update
 
 pip install pyflakes pep8 flake8 mccabe
 open a python file with this config and it F5 for pep8 test
+
+If you are as lazy as me install fabric and fabtools(if you use vagrant) and use the fabfile to automate this as : 
+fab -f /Users/mike/Documents/vimconfig/fabfile.py vagrant deploy_vimconfig
+
+TODO update the fabfile to handle multi VM in vagrant
