@@ -12,7 +12,7 @@ def deploy_vimconfig (force=False):
     """
     git clone bmx0r/vimconfig from repo in github to $HOME/.vim.
     """
-    if force == true:
+    if force == True:
         print "Forced Mode ON : get rid of old .vim directory"
         run('rm -rf $HOME/.vim')
     print('=== CLONE FROM GITHUB ===')
