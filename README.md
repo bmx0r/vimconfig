@@ -13,7 +13,7 @@ git clone git://github.com/bmx0r/vimconfig.git .vim
 
 ln -s $HOME/.vim/.vimrc $HOME/.vimrc
 
-cd $home/.vim
+cd $HOME/.vim
 
 git submodule init
 
