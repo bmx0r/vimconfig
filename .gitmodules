@@ -30,10 +30,10 @@
 	url = https://github.com/jmcantrell/vim-virtualenv.git
 [submodule "bundle/vim-flake8"]
 	path = bundle/vim-flake8
-	url = git://github.com/nvie/vim-flake8.git
+	url = https://github.com/nvie/vim-flake8.git
 [submodule "bundle/vim-puppet"]
 	path = bundle/vim-puppet
-	url = git://github.com/rodjek/vim-puppet.git
+	url = https://github.com/rodjek/vim-puppet.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
