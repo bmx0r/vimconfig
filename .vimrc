@@ -2,6 +2,18 @@
   let g:pathogen_disabled = [ 'pathogen' ]    " don't load self 
   call pathogen#infect()                      " load everyhting else
   call pathogen#helptags()                    " load plugin help files
+"syntastic
+  set statusline+=%#warningmsg#
+  set statusline+=%{SyntasticStatuslineFlag()}
+  set statusline+=%*
+  
+  let g:syntastic_always_populate_loc_list = 1
+  let g:syntastic_auto_loc_list = 1
+  let g:syntastic_check_on_open = 1
+  let g:syntastic_check_on_wq = 0
+  let g:syntastic_aggregate_errors = 1
+
+  let g:syntastic_puppet_puppetlint_args = "--no-80chars-check --no-arrow_on_right_operand_line-check --no-140chars-check --no-puppet_url_without_modules-check"
 " code folding
   set foldmethod=indent
   set foldlevel=2
